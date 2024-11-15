@@ -1,6 +1,15 @@
+veracrypt_executable_path: C:\Program Files\VeraCrypt\
+
+bitwarden:
+  url: http://localhost:5000
+  password_base64: dGVzdA==
+  credential_name: volume_password
+
 volume:
-  folder: .volume
-  name: volume
+  folder: C:\Users\kamuri\Downloads\test
+  name: test
+  mount_point: Z
+  size: 10M
 
 default_structure:
   - name: common
@@ -17,4 +26,3 @@ default_structure:
       - name: music
       - name: projects
       - name: others
-
