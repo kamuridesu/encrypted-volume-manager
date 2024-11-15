@@ -1,0 +1,20 @@
+volume:
+  folder: .volume
+  name: volume
+
+default_structure:
+  - name: common
+    children:
+      - name: images
+      - name: documents
+        children:
+          - name: pdf
+          - name: word
+          - name: excel
+          - name: powerpoint
+          - name: others
+      - name: videos
+      - name: music
+      - name: projects
+      - name: others
+
