@@ -26,9 +26,9 @@ async def main():
     await veracrypt.create(password)
     await veracrypt.mount(password)
     create_folder_structure(config.default_structure[0], get_driver_path(config.volume.mount_point))
-    input("Press enter to unmount")
+    input("\nPlease, check if all the folders were created correctly and press [ENTER] to unmount the volume")
     await veracrypt.unmount()
-    print("Done")
+    print("Done!")
 
 
 if __name__ == "__main__":
